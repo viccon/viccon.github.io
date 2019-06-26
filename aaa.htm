@@ -11,7 +11,7 @@
             if (window.XMLHttpRequest) {
                 xmlhttp = new XMLHttpRequest();
             }
-            xmlhttp.onload = function(){
+            xmlhttp.onloadend = function(){
                     alert("3");
                     alert(xmlhttp.responseText);
             }
